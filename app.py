@@ -6,7 +6,7 @@ st.set_page_config(page_title="Fund Allocation Dashboard", layout="wide")
 st.title("🩺 AI-Based Health Screening & Fund Allocation Dashboard")
 
 # Load data
-df = pd.read_csv('/content/drive/MyDrive/eyelid_dataset/phase5_fund_allocation_results.csv')
+df = pd.read_csv('phase5_fund_allocation_results.csv')
 
 # ---- Summary Metrics ----
 col1, col2, col3, col4 = st.columns(4)
