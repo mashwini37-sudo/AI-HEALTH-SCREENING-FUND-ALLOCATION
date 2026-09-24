@@ -59,7 +59,7 @@ import numpy as np
 
 # Load saved models
 risk_model = joblib.load('phase3_risk_model.pkl')
-anomaly_model = joblib.load('/content/drive/MyDrive/eyelid_dataset/phase4_isolation_forest.pkl')
+anomaly_model = joblib.load('phase4_isolation_forest.pkl')
 
 with st.form("new_case_form"):
     col1, col2 = st.columns(2)
